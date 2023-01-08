@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    /* text-align: center; */
+}
+
+#contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+    position: relative;
+    left: 76px;
+}
+
+#each{    
+    background-color: skyblue;
+    width: 141%;
+    font-size: 25px;
+    padding: 5px;
+}
+
+#details{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 45px;
+    top: -15px; 
+    color: white;
+}
+
+#each{
+    border: white;
+    border-style: solid;
+    border-width: 1px;
+    transition: 0.5s;
+}
+
+#each:hover{
+    background-color: lightgray;
+}
+
+form{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    left: 85px;
+    padding-left: 1px;
+}
+
+form button{
+    background-color: gray;
+}
+
